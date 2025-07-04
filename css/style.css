@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.center {
+    text-align: center;
+}
+
+header {
+    padding: 55px 0;
+    background-color: white;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .container nav ul {
+    display: flex;
+    gap: 47px;
+}
+
+header .container nav ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+}
+
+header .container .buttons {
+    display: flex;
+    gap: 24px;
+}
+
+header .container .buttons .login {
+    border: none;
+    background-color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0%;
+}
+
+header .container .buttons .apply {
+    background-color: #000;
+    color: white;
+    padding: 12px 24px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hero Start */
+.hero {
+    height: 78vh;
+    background: linear-gradient(to right, #fff 40%, #acf8f5 40% 100%);
+}
+
+.hero .container {
+    position: relative;
+    display: flex;
+}
+
+.hero .container .hero-left {
+    padding-top: 20px;
+    padding-right: 94px;
+}
+
+.hero .container .hero-left h1 {
+
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 64.17px;
+    letter-spacing: 2.33px;
+}
+
+.hero .container .hero-left span {
+    color: #1e1d1d;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-top: 20px;
+}
+
+.hero .container .hero-left .apply {
+    background-color: #000;
+    color: white;
+    padding: 12px 24px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border: none;
+    cursor: pointer;
+}
+
+.look2 {
+    margin-left: 13px;
+}
+
+.hero .container .hero-right {
+    position: absolute;
+    top: 100px;
+    left: 380px;
+}
+
+.hero .container .hero-right img {
+    border-radius: 30px;
+    box-shadow: 2px 4px 8px rgba(128, 128, 128, 0.432);
+}
+
+/* Hero End */
+/* Features */
+.about {
+    padding: 142px;
+    background-color: #F7F7F7;
+}
+
+.about .container .featured {
+    text-align: center;
+}
+
+.about .container .featured .featured-text {
+    color: #1E1D1DB8;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.about .container .featured h2 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.about .container .cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 65px;
+}
+
+.about .container .cards .card {
+    width: 554px;
+    background-color: white;
+    flex-shrink: 0;
+    box-shadow: 2px 4px 8px rgba(128, 128, 128, 0.116);
+}
+
+.about .container .cards .card .titel h3 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 33px;
+    line-height: 26.67px;
+    letter-spacing: 0%;
+    margin-left: 48px;
+    margin-top: 55px;
+}
+
+
+
+.about .container .cards .card .titel .img-card {
+    width: 88px;
+    height: 140px;
+    margin: 24px;
+}
+.about .container .cards .card .titel{
+    display: flex;
+    justify-content: space-between;
+}
+.about .container .cards .card .titel .title-text{
+    display: flex;
+    flex-direction: column;
+}
+.about .container .cards .card .titel .title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    margin-left: 48px;
+    margin-top: 23px;
+    margin-bottom: 62px;
+    margin-right: 204px;
+}
+
+.about .container .cards .card hr {
+    background-color: rgba(30, 29, 29, 0.12);
+    height: 1px;
+    border: none;
+}
+
+.about .container .cards .card .texts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 21px 16px 21px 40px;
+}
+
+.about .container .cards .card .texts .left-texts .square-green {
+    background-color: #6EEB9D;
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+    border-radius: 4px;
+}
+
+.about .container .cards .card .texts .left-texts .square-yellow {
+    background-color: #FFF67F;
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+    border-radius: 4px;
+}
+
+.about .container .cards .card .texts .left-texts {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.about .container .cards .card .texts .left-texts .text-group .square-text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+
+.about .container .cards .card .texts .square-right {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: right;
+    margin: 31px 40px 31px 0;
+}
+
+.about .container .cards .card .texts .left-texts .text-group {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.about .container .cards .card .texts .left-texts .text-group .square-mini-text {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #1E1D1DB8;
+
+}
+
+.learn-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.learn-btn .learn-button {
+    border: 1px solid black;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    background-color: white;
+    padding: 18px 178px;
+    margin: 23px 40px;
+    cursor: pointer;
+}
+
+/* Features End*/
