@@ -20,6 +20,10 @@ li {
     max-width: 1280px;
 }
 
+body {
+    background-color: #F7F7F7;
+}
+
 .center {
     text-align: center;
 }
@@ -319,6 +323,7 @@ header .container .buttons .apply {
 /* Boost Section */
 .boost {
     background-color: #F7F7F7;
+    margin-bottom: 92px;
 }
 
 .boost h2 {
@@ -357,10 +362,12 @@ header .container .buttons .apply {
     color: #1E1D1D;
     margin-top: 239px;
 }
-.boost .cards .card .text{
+
+.boost .cards .card .text {
     display: flex;
     justify-content: center;
 }
+
 .boost .cards .card .text p {
     font-family: Roboto;
     font-weight: 400;
@@ -375,3 +382,250 @@ header .container .buttons .apply {
 }
 
 /* Boost Section End*/
+/* App Section */
+.app {
+    background-color: white;
+}
+
+.app .container {
+    width: 90%;
+    margin-left: 110px;
+    min-height: 1280px;
+}
+
+.app .container .app-p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.56px;
+    text-transform: uppercase;
+    color: #1E1D1DB8;
+    margin-bottom: 15px;
+    padding-top: 96px;
+}
+
+.app .container .app-title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 33px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #1E1D1D;
+    margin-bottom: 65px;
+}
+
+.app .container .app-green {
+    background-color: #6EEB9D;
+    width: 1140px;
+    height: 543px;
+    padding-left: 48px;
+    padding-top: 189px;
+    padding-bottom: 177px;
+    border-radius: 10px;
+}
+
+.app .container .app-green h1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 33px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    width: 333px;
+    color: #1E1D1D;
+}
+
+.app .container .app-green p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23.25px;
+    letter-spacing: 0%;
+    width: 333px;
+    color: #1E1D1DB8;
+}
+
+.app .container .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: flex-start;
+    margin-top: 32px;
+    margin-bottom: 96px;
+}
+
+.app .container .cards .gray-1 {
+    background-color: #F7F7F7;
+    text-align: center;
+    width: 443px;
+    height: 531px;
+    border-radius: 10px;
+}
+
+.app .container .cards .gray-1 h1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 33px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #1E1D1D;
+    margin-top: 395px;
+}
+
+.app .container .cards .gray-2 {
+    background-color: #F7F7F7;
+    text-align: center;
+    width: 665px;
+    height: 531px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.app .container .cards .gray-1 p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23.25px;
+    letter-spacing: 0.15px;
+    text-align: center;
+    color: #1E1D1DB8;
+}
+
+.app .container .cards .gray-2 .gray-2-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 226px;
+    margin-right: 219px;
+    margin-left: 48px;
+    flex-shrink: 0;
+}
+
+.app .container .cards .gray-2 .gray-2-text h1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 33px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #1E1D1D;
+    z-index: 2;
+}
+
+.app .container .cards .gray-2 .gray-2-text p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23.25px;
+    letter-spacing: 0.15px;
+    text-align: center;
+    color: #1E1D1DB8;
+}
+
+.app .container .cards .gray-2 .brend {
+    position: absolute;
+    right: 65px;
+    top: 0;
+    z-index: 0;
+
+}
+
+.app .container .cards .yellow {
+    width: 665px;
+    height: 594px;
+    background-color: #FFF67F;
+    border-radius: 10px;
+}
+
+.app .container .cards .yellow .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app .container .cards .yellow .text h1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 33px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #1E1D1D;
+    text-align: center;
+    margin-top: 435px;
+}
+
+.app .container .cards .yellow .text p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23.25px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #1E1D1DB8;
+    width: 493px;
+}
+
+.app .container .cards .aqua {
+    border-radius: 10px;
+    background-color: #ACF8F5;
+    width: 443px;
+    height: 594px;
+}
+
+.app .container .cards .aqua h1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 33px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 287px;
+    margin-top: 169px;
+}
+
+.app .container .cards .aqua p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23.25px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #1E1D1DB8;
+    width: 347px;
+}
+
+.app .container .cards .aqua .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.app .container .cards .aqua .payment-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+}
+
+.app .container .cards .aqua .payment-img img {
+    width: 347px;
+    height: 178px;
+}
+
+/* App Section End */
