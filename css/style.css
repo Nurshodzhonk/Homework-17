@@ -199,14 +199,17 @@ header .container .buttons .apply {
     height: 140px;
     margin: 24px;
 }
-.about .container .cards .card .titel{
+
+.about .container .cards .card .titel {
     display: flex;
     justify-content: space-between;
 }
-.about .container .cards .card .titel .title-text{
+
+.about .container .cards .card .titel .title-text {
     display: flex;
     flex-direction: column;
 }
+
 .about .container .cards .card .titel .title {
     font-family: Roboto;
     font-weight: 400;
@@ -313,3 +316,62 @@ header .container .buttons .apply {
 }
 
 /* Features End*/
+/* Boost Section */
+.boost {
+    background-color: #F7F7F7;
+}
+
+.boost h2 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 33px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 65px;
+}
+
+.boost .cards {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    height: 741;
+}
+
+.boost .cards .card {
+    width: 359px;
+    height: 435px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 4px 8px rgba(128, 128, 128, 0.116);
+}
+
+.boost .cards .card h3 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #1E1D1D;
+    margin-top: 239px;
+}
+.boost .cards .card .text{
+    display: flex;
+    justify-content: center;
+}
+.boost .cards .card .text p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #1E1D1DC7;
+    margin-top: 27px;
+    width: 313px;
+}
+
+/* Boost Section End*/
