@@ -772,6 +772,7 @@ header .container .buttons .apply {
     line-height: 28px;
     letter-spacing: 0%;
     margin-bottom: 66px;
+    cursor: pointer;
 }
 
 .testimonials .cards {
@@ -899,3 +900,101 @@ header .container .buttons .apply {
 }
 
 /* Testimonials Section End */
+
+/* Offer Section */
+.offers {
+    background-color: white;
+    padding-top: 96px;
+}
+
+.offers .container {
+    width: 90%;
+
+}
+
+.offers .container .offer {
+    display: flex;
+    justify-content: flex-start;
+    background: linear-gradient(90deg, #f0eded 50%, black 50% 100%);
+    width: 100%;
+
+}
+
+.offers .container .offer .text {
+    display: flex;
+    margin-left: 48px;
+    margin-top: 156px;
+    margin-bottom: 156px;
+    margin-right: 116px;
+}
+
+.offers .container .offer .text .text2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.offers .container .offer .text .text2 h1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 27px;
+    line-height: 33.07px;
+    letter-spacing: 0%;
+    width: 399px;
+}
+
+.offers .container .offer .text .text2 h2 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 33px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 49px;
+}
+
+.offers .container .offer .text .text2 button {
+    width: 196px;
+    height: 64px;
+    color: white;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+}
+
+.offers .container .offer button img {
+    margin-left: 13px;
+}
+
+.offers .container .offer .black {
+    background-color: black;
+    width: 570px;
+    height: 555px;
+}
+
+.offers .container .text3 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 37px;
+}
+
+.offers .container .text3 p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    color: #1E1D1DB8;
+    width: 354px;
+    margin-top: 55px;
+    margin-bottom: 95px;
+}
+
+/* Offer Section End */
