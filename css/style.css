@@ -617,7 +617,7 @@ header .container .buttons .apply {
     flex-direction: column;
 }
 
-.app .container .cards .aqua .payment-img{
+.app .container .cards .aqua .payment-img {
     display: flex;
     justify-content: center;
     margin-top: 48px;
@@ -629,3 +629,107 @@ header .container .buttons .apply {
 }
 
 /* App Section End */
+
+/* Card Features */
+
+.card-features {
+    background-color: #1E1D1D;
+    padding-top: 65px;
+    padding-bottom: 34px;
+    margin-bottom: 105px;
+}
+
+.card-features .container {
+    width: 90%;
+    margin-left: 110px;
+}
+
+.card-features .container .fea-p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.56px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFFB8;
+    margin: 15px;
+}
+
+.card-features .container .fea-title {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 33px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 65px;
+}
+
+.card-features .container .cards {
+    display: flex;
+    justify-content: flex-start;
+    gap: 32px;
+    margin-bottom: 96px;
+}
+
+.card-features .container .cards .card {
+    background-color: white;
+    width: 359px;
+    height: 332px;
+}
+
+.card-features .container .cards .card .content .green {
+    width: 48px;
+    height: 48px;
+    background-color: #6EEB9D;
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+
+.card-features .container .cards .card .content {
+    margin-left: 48px;
+    margin-top: 48px;
+    width: 256px;
+}
+
+.card-features .container .cards .card .content h3 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-bottom: 27px;
+}
+
+.card-features .container .cards .card .content p {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #1E1D1DC7;
+}
+.card-features .container .cards .card .content .yellow {
+    width: 48px;
+    height: 48px;
+    background-color: #FFF67F;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-features .container .cards .card .content .aqua {
+    width: 48px;
+    height: 48px;
+    background-color: #ACF8F5;
+    border-radius: 4px;
+    margin-bottom: 24px;
+}
+/* Card Features End */
