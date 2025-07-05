@@ -385,6 +385,7 @@ header .container .buttons .apply {
 /* App Section */
 .app {
     background-color: white;
+    padding-bottom: 56px;
 }
 
 .app .container {
@@ -715,6 +716,7 @@ header .container .buttons .apply {
     letter-spacing: 0%;
     color: #1E1D1DC7;
 }
+
 .card-features .container .cards .card .content .yellow {
     width: 48px;
     height: 48px;
@@ -725,6 +727,7 @@ header .container .buttons .apply {
     justify-content: center;
     align-items: center;
 }
+
 .card-features .container .cards .card .content .aqua {
     width: 48px;
     height: 48px;
@@ -732,4 +735,167 @@ header .container .buttons .apply {
     border-radius: 4px;
     margin-bottom: 24px;
 }
+
 /* Card Features End */
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #F7F7F7;
+    padding-bottom: 116px;
+}
+
+.testimonials .container {
+    width: 90%;
+    margin-left: 110px;
+}
+
+.testimonials .container h1 {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 33px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #1E1D1D;
+    margin-bottom: 49px;
+}
+
+.testimonials .container button {
+    border: 1px solid black;
+    width: 192px;
+    height: 64px;
+    background-color: inherit;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    margin-bottom: 66px;
+}
+
+.testimonials .cards {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    gap: 80px;
+}
+
+.testimonials .cards .card-green {
+    width: 418px;
+    height: 428px;
+    background-color: #6EEB9D;
+}
+
+.testimonials .cards .card-green .notes {
+    margin-left: 345px;
+}
+
+.testimonials .cards .card-green .text {
+    width: 254px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23.25px;
+    letter-spacing: 0%;
+    color: #1E1D1D;
+    margin-left: 34px;
+    margin-right: 97px;
+}
+
+.testimonials .cards .card-green .author {
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23.25px;
+    letter-spacing: 0%;
+    color: #1E1D1D;
+    margin-left: 34px;
+    margin-top: 100px;
+}
+
+.using {
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #1E1D1DB8;
+    margin-left: 34px;
+}
+
+.testimonials .cards .card-aqua {
+    width: 359px;
+    height: 371px;
+    background-color: #ACF8F5;
+}
+
+.testimonials .cards .card-aqua .notes {
+    margin-left: 296px;
+}
+
+.testimonials .cards .card-aqua .text {
+    width: 254px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23.25px;
+    letter-spacing: 0%;
+    color: #1E1D1D;
+    margin-left: 34px;
+    margin-right: 97px;
+}
+
+.testimonials .cards .card-aqua .author {
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23.25px;
+    letter-spacing: 0%;
+    color: #1E1D1D;
+    margin-left: 34px;
+    margin-top: 44px;
+}
+
+
+.testimonials .cards .card-yellow {
+    width: 418px;
+    height: 428px;
+    background-color: #FFF67F;
+}
+
+.testimonials .cards .card-yellow .notes {
+    margin-left: 372px;
+}
+
+.testimonials .cards .card-yellow .text {
+    width: 254px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23.25px;
+    letter-spacing: 0%;
+    color: #1E1D1D;
+    margin-left: 34px;
+    margin-right: 97px;
+}
+
+.testimonials .cards .card-yellow .author {
+    font-family: Roboto;
+    font-weight: 700;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 23.25px;
+    letter-spacing: 0%;
+    color: #1E1D1D;
+    margin-left: 34px;
+    margin-top: 44px;
+}
+
+/* Testimonials Section End */
